@@ -7,4 +7,5 @@ import (
 
 func main() {
 	fmt.Println("1 + 2 =", math.Add(1, 2))
+	fmt.Println("1.1 + 2.1 =", math.Add(1.1, 2.1))
 }
