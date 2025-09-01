@@ -24,7 +24,10 @@ func Add(a int, b int) int
 % git push origin v1.0.1
 ```
 
-# pkgsite
+# version up
 ```
-$ go install golang.org/x/pkgsite/cmd/pkgsite@latest
+% git add cmd/cli/main.go go.mod math/math.go
+% git tag v2.0.0
+% git push origin main
+% git push origin v2.0.0
 ```
